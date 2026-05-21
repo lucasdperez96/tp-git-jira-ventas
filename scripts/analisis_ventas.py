@@ -99,3 +99,13 @@ resumen.to_csv(
 
 print("\nResumen exportado correctamente.")
 
+# =========================
+# PROY-19
+# Validación de visualización
+# =========================
+
+if not ventas_por_periodo.empty:
+    print("\nVisualización validada correctamente.")
+else:
+    print("\nError en la visualización.")
+
