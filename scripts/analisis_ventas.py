@@ -49,7 +49,7 @@ print(menor_venta)
 
 # BUG intencional para revisión QA
 ventas_por_periodo = df.groupby(
-    df["sales_date"].dt.day
+    df["sales_date"].dt.month
 )["sales_amount"].sum()
 
 # =========================
